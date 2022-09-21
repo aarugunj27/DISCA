@@ -1,0 +1,36 @@
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+/* Text Highlight */
+
+::selection {
+  background-color: #ffe987 !important;
+  color: #000 !important;
+}
+
+/* Navbar */
+
+.nav-link {
+  display: inline-block !important;
+  position: relative !important;
+}
+
+.nav-link:after {
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: #4A4A4B !important;
+  transform-origin: bottom center !important;
+  transition: transform 0.25s ease-out !important;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom center !important;
+}
