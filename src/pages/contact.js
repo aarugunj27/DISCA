@@ -1,13 +1,13 @@
 import React from "react";
 import './static/css/style.css';
 
-function About() {
+function Contact() {
     return (
         <div>
-            <title>About</title>
-            <h1>About</h1>
+            <title>Contact</title>
+            <h1>Contact</h1>
         </div>
     )
 }
 
-export default About;
+export default Contact;
